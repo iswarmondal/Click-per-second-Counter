@@ -1,0 +1,47 @@
+html{
+    background-color: rgb(37, 37, 37);
+    font-family: Arial, Helvetica, sans-serif;
+#wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80vw;
+    height: 83vh;
+    padding: 1rem;
+    background-color: coral;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    h1 {
+        color: rgb(255, 250, 204);
+        font-size: 50px;
+    }
+    button{
+        width:20vw;
+        height: 10vh;
+        border-radius: 1rem;
+        outline: none;
+        cursor: pointer;
+        background-color: rgb(14, 14, 66);
+        -webkit-box-shadow: 4px 4px 19px 0px rgba(59,59,59,1);
+        -moz-box-shadow: 4px 4px 19px 0px rgba(59,59,59,1);
+        box-shadow: 4px 4px 19px 0px rgba(59,59,59,1);
+        &:active{
+            box-shadow: inset 4px 4px 19px 0px rgba(59,59,59,1);
+        }
+        h2{
+            color: white;
+            font-size: 17px;
+        }
+    }
+    p{
+        font-size: 30px;
+        font-weight: bold;
+        color: rgb(255, 250, 204);
+        display: none;
+    }
+}
+}
