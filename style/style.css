@@ -31,11 +31,13 @@ html #wrapper {
 
 html #wrapper h1 {
   color: #fffacc;
-  font-size: 50px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
 }
 
 html #wrapper button {
-  width: 20vw;
+  min-width: 20vw;
   height: 10vh;
   border-radius: 1rem;
   outline: none;
