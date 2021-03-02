@@ -61,6 +61,9 @@ html #wrapper p {
   font-size: 30px;
   font-weight: bold;
   color: #fffacc;
-  display: none;
+}
+
+html #wrapper #reset {
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
